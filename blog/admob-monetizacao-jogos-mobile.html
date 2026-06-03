@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AdMob para Devs Indie: Como Monetizar Jogos Mobile em 2026 — Huster Games</title>
+<meta name="description" content="Guia prático de AdMob para desenvolvedores indie de jogos mobile. Tipos de anúncio, formatos que pagam mais, eCPM no Brasil e como não destruir a experiência do jogador.">
+<meta name="keywords" content="AdMob jogos mobile, monetização jogos indie, ads em jogos, banner intersticial rewarded, eCPM Brasil, AdMob tutorial, AdMob jogos Unity, monetizar jogo casual, app-ads.txt, ad mediation, Huster Games, Leonardo Mondaine, AdMob 2026, ganhar dinheiro jogo android, fill rate ads, AdMob iniciante, AdMob best practices, AdMob brasil, jogo mobile rendimento">
+<link rel="canonical" href="https://hustergame.com/blog/admob-monetizacao-jogos-mobile.html">
+<link rel="alternate" hreflang="pt-br" href="https://hustergame.com/blog/admob-monetizacao-jogos-mobile.html">
+<link rel="alternate" hreflang="en" href="https://hustergame.com/en/blog/admob-mobile-game-monetization.html">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<meta name="theme-color" content="#000A21">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="AdMob para Devs Indie: Como Monetizar Jogos Mobile em 2026">
+<meta property="og:description" content="Guia prático de AdMob para desenvolvedores indie. Formatos, eCPM Brasil e UX sem destruir a experiência.">
+<meta property="og:url" content="https://hustergame.com/blog/admob-monetizacao-jogos-mobile.html">
+<meta property="og:image" content="https://hustergame.com/assets/og-image.svg">
+<meta property="og:image:alt" content="AdMob para devs indie">
+<meta property="og:locale" content="pt_BR">
+<meta property="article:published_time" content="2026-06-03">
+<meta property="article:author" content="Leonardo Mondaine">
+<meta property="article:section" content="Monetização">
+<meta property="article:tag" content="AdMob">
+<meta property="article:tag" content="Monetização">
+<meta property="article:tag" content="Jogos Indie">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@huster.game">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AdMob para Devs Indie: Como Monetizar Jogos Mobile em 2026",
+  "datePublished": "2026-06-03",
+  "dateModified": "2026-06-03",
+  "author": { "@type": "Person", "name": "Leonardo Mondaine", "url": "https://hustergame.com/#developer" },
+  "publisher": { "@type": "Organization", "name": "Huster Games", "url": "https://hustergame.com/", "logo": { "@type": "ImageObject", "url": "https://hustergame.com/assets/favicon.svg" } },
+  "mainEntityOfPage": "https://hustergame.com/blog/admob-monetizacao-jogos-mobile.html",
+  "image": "https://hustergame.com/assets/og-image.svg",
+  "inLanguage": "pt-BR",
+  "description": "Guia prático de AdMob para desenvolvedores indie de jogos mobile."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://hustergame.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://hustergame.com/blog/" },
+    { "@type": "ListItem", "position": 3, "name": "AdMob para Devs Indie", "item": "https://hustergame.com/blog/admob-monetizacao-jogos-mobile.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="ambient ambient-1"></div>
+<div class="ambient ambient-2"></div>
+
+<nav class="site-nav">
+  <a href="/" class="nav-logo">Huster Games</a>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+  <ul class="nav-links">
+    <li><a href="/#games">Jogos</a></li>
+    <li><a href="/blog/" class="active">Blog</a></li>
+    <li><a href="/#developer">Estúdio</a></li>
+    <li><div class="lang-switch"><a href="/blog/admob-monetizacao-jogos-mobile.html" class="active">PT</a><a href="/en/blog/admob-mobile-game-monetization.html">EN</a></div></li>
+  </ul>
+</nav>
+
+<article class="section section-narrow" style="padding-top: 140px;">
+  <p class="post-meta">03 de Junho · 2026 · Por Leonardo Mondaine</p>
+  <h1 class="post-title">ADMOB PARA DEVS INDIE: COMO MONETIZAR JOGOS MOBILE EM 2026</h1>
+  <div class="divider" style="margin-bottom: 56px;"></div>
+
+  <div class="prose">
+    <p>Quando você é dev solo, a primeira coisa que percebe depois do lançamento é que <strong>jogos grátis precisam ganhar de alguma forma</strong>. Se você não vende, você anuncia. E pra 99% dos indies no Android, anunciar significa AdMob.</p>
+
+    <p>Esse post é o resumo do que aprendi integrando AdMob em todos os seis jogos da Huster — o que funcionou, o que destruiu retenção, e o que ninguém te conta no tutorial oficial.</p>
+
+    <h2>O Que É AdMob</h2>
+    <p>AdMob é a rede de anúncios do Google para apps mobile. Você integra o SDK no seu jogo, declara onde os anúncios podem aparecer, e o Google distribui anunciantes que pagam por impressões e cliques. O pagamento é mensal, em USD, via transferência bancária.</p>
+
+    <h2>Os Formatos Que Você Precisa Conhecer</h2>
+
+    <h3>Banner</h3>
+    <p>Aquela faixa fininha no topo ou rodapé. <strong>Paga pouco</strong> (eCPM no Brasil entre US$ 0,15 e US$ 0,80), mas é constante. Bom pra menus, ruim pra gameplay — toma espaço útil e irrita.</p>
+
+    <h3>Intersticial</h3>
+    <p>Anúncio em tela cheia que aparece em transições (game over, fim de fase). Paga MUITO mais que banner (eCPM Brasil entre US$ 1,50 e US$ 4,00), mas destrói retenção se você abusar. <strong>Regra: nunca mais de 1 intersticial a cada 90 segundos de jogo.</strong></p>
+
+    <h3>Rewarded Video</h3>
+    <p>O jogador escolhe ver um vídeo de 15-30s em troca de uma recompensa no jogo (extra life, coins, skin). É o <strong>formato de ouro</strong>: eCPM mais alto (US$ 4 a US$ 10 no Brasil, muito mais nos EUA), opcional pro jogador, e não machuca retenção. Se você só vai usar um formato, use rewarded.</p>
+
+    <h3>App Open</h3>
+    <p>Aparece quando o jogador abre o app. Paga decente, mas é um soco na cara logo de cara. Use com extrema cautela, e nunca em todo abrir.</p>
+
+    <h3>Native Ads</h3>
+    <p>Anúncios desenhados pra parecer parte do seu UI. Funciona bem em menus de loja virtual. Complexo de implementar pra retorno pequeno em indie casual — ignore na primeira versão.</p>
+
+    <h2>eCPM No Brasil: a Realidade</h2>
+    <p>Vou ser direto: o tráfego brasileiro paga pouco. Um banner que faz US$ 4 nos EUA faz US$ 0,40 no Brasil. Isso significa duas coisas:</p>
+    <ul>
+      <li><strong>Otimize seu jogo para internacional desde o dia 1</strong>. Tudo em inglês como segundo idioma. Descrição em inglês também.</li>
+      <li><strong>Foque em rewarded</strong>. É o formato onde a diferença Brasil/EUA é menor.</li>
+    </ul>
+
+    <h2>app-ads.txt: O Arquivo Que Quase Ninguém Configura</h2>
+    <p>Esse é o erro que mais corrói receita. O <code>app-ads.txt</code> é um arquivo que você coloca na raiz do seu site (o mesmo declarado na ficha do jogo no Google Play) provando que VOCÊ é o dono daquele inventário. Sem ele, muitos anunciantes premium não fazem lance nos seus espaços.</p>
+    <p>É um arquivo de uma linha. No nosso caso:</p>
+    <pre style="background:rgba(255,255,255,0.04); padding:16px; border-radius:8px; overflow:auto;">google.com, pub-9381789814620993, DIRECT, f08c47fec0942fa0</pre>
+    <p>Coloca no domínio do estúdio (hustergame.com), declara o domínio na ficha do app, e em alguns dias o crawler do Google valida. Aumenta eCPM imediato. Faça isso.</p>
+
+    <h2>Mediation: O Próximo Passo</h2>
+    <p>Quando seu jogo passa de 10k downloads e você tá deixando dinheiro na mesa, vale ativar mediation. Em vez de só AdMob, você integra Unity Ads, ironSource, AppLovin, etc, e deixa eles brigarem entre si pelo seu inventário. Quem oferecer mais paga, leva. Pode subir eCPM em 20-40%.</p>
+    <p>Trade-off: mais SDKs no seu jogo = mais tamanho de download, mais chance de bug. Antes de 10k downloads, esquece. Foque em fazer jogo bom.</p>
+
+    <h2>UX Sem Destruir o Jogo</h2>
+    <p>A grande tentação é encher de ad pra maximizar receita curto prazo. Não faz isso. Princípios que sigo:</p>
+    <ul>
+      <li><strong>Nada de ad nos primeiros 60 segundos</strong>. O jogador precisa amar antes de ser interrompido.</li>
+      <li><strong>Rewarded > intersticial sempre que possível</strong>. Se você consegue dar uma recompensa, dá.</li>
+      <li><strong>Banner só em menu</strong>, nunca em gameplay.</li>
+      <li><strong>Frequency cap claro</strong>: máximo 1 intersticial a cada 90s.</li>
+      <li><strong>Opção paga pra remover ads</strong> (US$ 2.99 oneshot). Conversa baixa, mas LTV alto.</li>
+    </ul>
+
+    <h2>Erros Que Vão Te Banir</h2>
+    <p>AdMob é rigoroso. Você toma ban e fica sem receita do mês. Os 3 erros mais comuns:</p>
+    <ul>
+      <li><strong>Clicar nos próprios anúncios</strong> ou pedir pra família clicar. O Google detecta. Banimento permanente.</li>
+      <li><strong>Mostrar anúncio em conteúdo proibido</strong>: violência gráfica explícita, conteúdo sexual, drogas.</li>
+      <li><strong>Forçar clique</strong> com botão "ver vídeo" que na verdade é "x para fechar". Dark pattern = ban.</li>
+    </ul>
+
+    <h2>Quanto Dá Pra Esperar</h2>
+    <p>Pra um jogo casual brasileiro com 5.000 DAU (daily active users), boa integração e rewarded ativo, é razoável esperar entre <strong>US$ 50 e US$ 200 por mês</strong>. Pouco? Sim. Mas escala. A 50.000 DAU vira US$ 500-2.000/mês. A 500.000 vira renda principal.</p>
+
+    <p>O caminho é fazer jogo bom, integrar ads sem destruir a experiência, configurar app-ads.txt, e iterar. A receita vem depois da retenção, nunca antes.</p>
+  </div>
+</article>
+
+<section class="section section-narrow">
+  <div class="dev-card">
+    <h2 class="dev-name">QUER MAIS?</h2>
+    <p class="dev-bio">Continue lendo o blog ou conheça os jogos da Huster.</p>
+    <div class="dev-links">
+      <a href="/blog/" class="dev-link">Voltar ao Blog</a>
+      <a href="/#games" class="dev-link">Ver Jogos</a>
+      <a href="https://www.tiktok.com/@huster.game" class="dev-link" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.instagram.com/hustergame" class="dev-link" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/@HusterGame" class="dev-link" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>Huster Games</h4>
+      <p class="footer-tagline">Estúdio independente brasileiro fundado por Leonardo Mondaine.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Jogos</h4>
+      <a href="/games/stack-or-die.html">Stack or Die</a>
+      <a href="/games/gloom-drop.html">Gloom Drop</a>
+      <a href="/games/worm-rush.html">Worm Rush</a>
+      <a href="/games/color-match.html">Color Match</a>
+      <a href="/games/clock-color.html">Clock Color</a>
+      <a href="/games/neon-grid.html">Neon Grid</a>
+    </div>
+    <div class="footer-col">
+      <h4>Estúdio</h4>
+      <a href="/#developer">Sobre</a>
+      <a href="/blog/">Blog</a>
+      <a href="mailto:hustergame@gmail.com">Contato</a>
+      <a href="/en/">English</a>
+    </div>
+    <div class="footer-col">
+      <h4>Redes</h4>
+      <a href="https://www.tiktok.com/@huster.game" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.instagram.com/hustergame" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/@HusterGame" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://github.com/mondaine25" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://play.google.com/store/apps/dev?id=Leonardo+Mondaine" target="_blank" rel="noopener">Google Play</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 HUSTER GAMES · LEONARDO MONDAINE · CASCAVEL, BRASIL</div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

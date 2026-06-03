@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000A21"/>
+      <stop offset="100%" stop-color="#050f2e"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#69F0AE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="280" fill="#4FC3F7" opacity="0.07"/>
+  <circle cx="1080" cy="510" r="240" fill="#69F0AE" opacity="0.06"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" fill="#ffffff" letter-spacing="8">HUSTER</text>
+  <text x="600" y="400" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="120" fill="url(#txt)" letter-spacing="8">GAMES</text>
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.5)" letter-spacing="8">INDIE MOBILE GAME STUDIO</text>
+  <g transform="translate(540 530)">
+    <circle cx="0" cy="0" r="9" fill="#4FC3F7"/>
+    <circle cx="24" cy="0" r="9" fill="#69F0AE"/>
+    <circle cx="48" cy="0" r="9" fill="#FF4081"/>
+    <circle cx="72" cy="0" r="9" fill="#FFD740"/>
+    <circle cx="96" cy="0" r="9" fill="#CE93D8"/>
+    <circle cx="120" cy="0" r="9" fill="#FF6E40"/>
+  </g>
+</svg>

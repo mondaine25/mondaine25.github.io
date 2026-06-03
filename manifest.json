@@ -1,0 +1,12 @@
+{
+  "name": "Huster Games",
+  "short_name": "Huster",
+  "description": "Estúdio independente de jogos mobile fundado por Leonardo Mondaine. Jogos casuais viciantes e gratuitos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000A21",
+  "theme_color": "#4FC3F7",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
