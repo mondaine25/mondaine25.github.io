@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Clock Color">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a3608"/>
+      <stop offset="100%" stop-color="#000A21"/>
+    </linearGradient>
+    <linearGradient id="hand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="36" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="74" fill="none" stroke="#FFD740" stroke-width="3" opacity="0.5"/>
+  <circle cx="100" cy="100" r="74" fill="none" stroke="rgba(255,215,64,0.15)" stroke-width="12"/>
+  <circle cx="100" cy="26" r="9" fill="#FF4081"/>
+  <circle cx="100" cy="174" r="9" fill="#FF4081"/>
+  <circle cx="174" cy="100" r="9" fill="#4FC3F7"/>
+  <circle cx="26" cy="100" r="9" fill="#4FC3F7"/>
+  <circle cx="152" cy="48" r="7" fill="#69F0AE"/>
+  <circle cx="48" cy="152" r="7" fill="#69F0AE"/>
+  <circle cx="48" cy="48" r="7" fill="#CE93D8"/>
+  <circle cx="152" cy="152" r="7" fill="#CE93D8"/>
+  <path d="M 100 174 Q 130 130 174 100" fill="none" stroke="#FF4081" stroke-width="2.5" opacity="0.6" stroke-dasharray="4 3"/>
+  <line x1="100" y1="100" x2="148" y2="56" stroke="url(#hand)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="100" y1="100" x2="100" y2="62" stroke="url(#hand)" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="100" cy="100" r="6" fill="#FFD740"/>
+  <circle cx="100" cy="100" r="2" fill="#000A21"/>
+</svg>

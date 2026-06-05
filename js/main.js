@@ -1,16 +1,20 @@
 /* HUSTER GAMES — interactions */
 
-// Auto-load real icon PNGs if present in /assets/icons/<slug>.png
+// Icon loader: SVG by default, swap to PNG if user dropped one in /assets/icons/<slug>.png
 function loadIcon(el) {
   const slug = el.getAttribute('data-icon');
   if (!slug) return;
-  const url = '/assets/icons/' + slug + '.png';
+  const svgUrl = '/assets/icons/' + slug + '.svg';
+  // Apply SVG immediately so users always see styled icon (no emoji jank)
+  el.style.backgroundImage = "url('" + svgUrl + "')";
+  el.classList.add('has-img');
+  // Try to upgrade to real PNG if it exists
+  const pngUrl = '/assets/icons/' + slug + '.png';
   const img = new Image();
   img.onload = () => {
-    el.style.backgroundImage = "url('" + url + "')";
-    el.classList.add('has-img');
+    el.style.backgroundImage = "url('" + pngUrl + "')";
   };
-  img.src = url;
+  img.src = pngUrl;
 }
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-icon]').forEach(loadIcon);

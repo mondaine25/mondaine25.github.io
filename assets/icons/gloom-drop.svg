@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Gloom Drop">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0%" stop-color="#0a3d2a"/>
+      <stop offset="100%" stop-color="#000A21"/>
+    </radialGradient>
+    <radialGradient id="ball" cx="0.4" cy="0.4">
+      <stop offset="0%" stop-color="#B9F6CA"/>
+      <stop offset="60%" stop-color="#69F0AE"/>
+      <stop offset="100%" stop-color="#00BFA5"/>
+    </radialGradient>
+    <radialGradient id="portal" cx="0.5" cy="0.5">
+      <stop offset="0%" stop-color="rgba(105,240,174,0)"/>
+      <stop offset="60%" stop-color="rgba(105,240,174,0.5)"/>
+      <stop offset="100%" stop-color="rgba(105,240,174,0.95)"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="36" fill="url(#bg)"/>
+  <ellipse cx="100" cy="148" rx="58" ry="14" fill="url(#portal)"/>
+  <ellipse cx="100" cy="148" rx="44" ry="9" fill="#000A21" opacity="0.7"/>
+  <circle cx="100" cy="78" r="26" fill="url(#ball)"/>
+  <circle cx="92" cy="70" r="7" fill="#FFFFFF" opacity="0.5"/>
+  <path d="M 100 110 L 100 132" stroke="#69F0AE" stroke-width="2" opacity="0.55" stroke-dasharray="3 4"/>
+  <circle cx="40" cy="36" r="2" fill="#69F0AE" opacity="0.7"/>
+  <circle cx="160" cy="50" r="2" fill="#69F0AE" opacity="0.5"/>
+  <circle cx="36" cy="120" r="1.5" fill="#B9F6CA" opacity="0.6"/>
+  <circle cx="166" cy="110" r="1.5" fill="#B9F6CA" opacity="0.6"/>
+</svg>

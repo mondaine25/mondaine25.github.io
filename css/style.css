@@ -450,9 +450,18 @@ nav.site-nav {
   pointer-events: none;
 }
 
-/* When background-image is set, hide the emoji */
-.game-icon-placeholder.has-img { color: transparent; font-size: 0; }
-.game-hero-icon.has-img { color: transparent; font-size: 0; }
+/* When background-image is set, hide the emoji and use full bleed */
+.game-icon-placeholder.has-img,
+.game-hero-icon.has-img {
+  color: transparent;
+  font-size: 0;
+  background-color: transparent !important;
+  background-image: var(--icon-bg);
+  background-size: cover;
+  background-position: center;
+}
+.game-icon-placeholder.has-img::after,
+.game-hero-icon.has-img::after { display: none; }
 
 /* Play Store badge */
 .play-badge {
