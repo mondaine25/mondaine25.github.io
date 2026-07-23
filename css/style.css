@@ -124,7 +124,7 @@ nav.site-nav {
 }
 
 .lang-switch a {
-  padding: 4px 10px;
+  padding: 4px 8px;
   border-radius: 100px;
   color: var(--muted-soft);
   text-decoration: none;
