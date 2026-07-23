@@ -18,12 +18,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://hustergame.com/en/"/>
   </url>
 
+  <url><loc>https://hustergame.com/ja/</loc><priority>1.0</priority></url>
+  <url><loc>https://hustergame.com/ko/</loc><priority>1.0</priority></url>
+  <url><loc>https://hustergame.com/it/</loc><priority>1.0</priority></url>
+  <url><loc>https://hustergame.com/de/</loc><priority>1.0</priority></url>
+  <url><loc>https://hustergame.com/fr/</loc><priority>1.0</priority></url>
+
   <url><loc>https://hustergame.com/games/stack-or-die.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/games/gloom-drop.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/games/worm-rush.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/games/color-match.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/games/clock-color.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/games/neon-grid.html</loc><priority>0.9</priority></url>
+  <url><loc>https://hustergame.com/games/nyx.html</loc><priority>0.9</priority></url>
 
   <url><loc>https://hustergame.com/en/games/stack-or-die.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/en/games/gloom-drop.html</loc><priority>0.9</priority></url>
@@ -31,6 +38,7 @@
   <url><loc>https://hustergame.com/en/games/color-match.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/en/games/clock-color.html</loc><priority>0.9</priority></url>
   <url><loc>https://hustergame.com/en/games/neon-grid.html</loc><priority>0.9</priority></url>
+  <url><loc>https://hustergame.com/en/games/nyx.html</loc><priority>0.9</priority></url>
 
   <url><loc>https://hustergame.com/blog/</loc><priority>0.7</priority></url>
   <url><loc>https://hustergame.com/blog/admob-monetizacao-jogos-mobile.html</loc><lastmod>2026-06-03</lastmod><priority>0.7</priority></url>
@@ -44,4 +52,39 @@
   <url><loc>https://hustergame.com/en/blog/addictive-casual-game-design.html</loc><lastmod>2026-05-28</lastmod><priority>0.6</priority></url>
   <url><loc>https://hustergame.com/en/blog/aso-google-play-tips.html</loc><lastmod>2026-05-15</lastmod><priority>0.6</priority></url>
 
+  <url><loc>https://hustergame.com/it/games/stack-or-die.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/it/games/gloom-drop.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/it/games/worm-rush.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/it/games/color-match.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/it/games/clock-color.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/it/games/neon-grid.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/it/games/nyx.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/fr/games/stack-or-die.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/fr/games/gloom-drop.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/fr/games/worm-rush.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/fr/games/color-match.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/fr/games/clock-color.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/fr/games/neon-grid.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/fr/games/nyx.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/de/games/stack-or-die.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/de/games/gloom-drop.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/de/games/worm-rush.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/de/games/color-match.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/de/games/clock-color.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/de/games/neon-grid.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/de/games/nyx.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ja/games/stack-or-die.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ja/games/gloom-drop.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ja/games/worm-rush.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ja/games/color-match.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ja/games/clock-color.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ja/games/neon-grid.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ja/games/nyx.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ko/games/stack-or-die.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ko/games/gloom-drop.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ko/games/worm-rush.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ko/games/color-match.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ko/games/clock-color.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ko/games/neon-grid.html</loc><priority>0.8</priority></url>
+  <url><loc>https://hustergame.com/ko/games/nyx.html</loc><priority>0.8</priority></url>
 </urlset>

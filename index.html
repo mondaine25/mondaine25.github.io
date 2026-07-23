@@ -17,6 +17,11 @@
 <link rel="canonical" href="https://hustergame.com/">
 <link rel="alternate" hreflang="pt-br" href="https://hustergame.com/">
 <link rel="alternate" hreflang="en" href="https://hustergame.com/en/">
+<link rel="alternate" hreflang="ja" href="https://hustergame.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://hustergame.com/ko/">
+<link rel="alternate" hreflang="it" href="https://hustergame.com/it/">
+<link rel="alternate" hreflang="de" href="https://hustergame.com/de/">
+<link rel="alternate" hreflang="fr" href="https://hustergame.com/fr/">
 <link rel="alternate" hreflang="x-default" href="https://hustergame.com/">
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 <link rel="manifest" href="/manifest.json">
@@ -38,7 +43,7 @@
 <meta name="twitter:image" content="https://hustergame.com/assets/og-image.svg">
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style.css?v=20260723b">
 
 <!-- Structured data: Organization + WebSite -->
 <script type="application/ld+json">
@@ -54,7 +59,7 @@
       "founder": {
         "@type": "Person",
         "name": "Leonardo Mondaine",
-        "email": "hustergame@gmail.com",
+        "email": "info@hustergame.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Cascavel",
@@ -187,9 +192,34 @@
           "priceCurrency": "USD"
         }
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "MobileApplication",
+        "name": "Nyx",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "ANDROID",
+        "url": "https://hustergame.com/games/nyx.html",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.leonardomondaine.nyx",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
     }
   ]
 }
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D7D88F9HXM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-D7D88F9HXM');
 </script>
 </head>
 <body>
@@ -206,12 +236,9 @@
     <li><a href="#games">Jogos</a></li>
     <li><a href="/blog/">Blog</a></li>
     <li><a href="#developer">Estúdio</a></li>
-    <li><a href="mailto:hustergame@gmail.com">Contato</a></li>
+    <li><a href="mailto:info@hustergame.com">Contato</a></li>
     <li>
-      <div class="lang-switch">
-        <a href="/" class="active">PT</a>
-        <a href="/en/">EN</a>
-      </div>
+      <div class="lang-switch"><a href="/" class="active">PT</a><a href="/en/">EN</a><a href="/ja/">JA</a><a href="/ko/">KO</a><a href="/it/">IT</a><a href="/de/">DE</a><a href="/fr/">FR</a></div>
     </li>
   </ul>
 </nav>
@@ -247,7 +274,7 @@
 <section class="section" style="padding-top:0;">
   <div class="stats reveal">
     <div class="stat">
-      <div class="stat-num">6</div>
+      <div class="stat-num">7</div>
       <div class="stat-label">Jogos no Catálogo</div>
     </div>
     <div class="stat">
@@ -271,7 +298,7 @@
     <p class="section-tag">Nosso Portfólio</p>
     <h2 class="section-title">OS JOGOS</h2>
     <div class="divider"></div>
-    <p class="section-sub">Seis jogos mobile, três no ar e três a caminho. Todos pensados para serem rápidos de aprender e difíceis de largar.</p>
+    <p class="section-sub">Sete jogos mobile, todos no ar. Pensados para serem rápidos de aprender e difíceis de largar.</p>
   </div>
 
   <div class="games-grid">
@@ -304,7 +331,7 @@
     </a>
 
     <a href="/games/color-match.html" class="game-card card-pink reveal">
-      <div class="card-status status-soon"><div class="status-dot"></div> Em Breve</div>
+      <div class="card-status status-live"><div class="status-dot"></div> No Ar</div>
       <div class="game-icon-placeholder" data-icon="color-match" style="background: rgba(255,64,129,0.15);">🎨</div>
       <div class="game-name">COLOR MATCH</div>
       <div class="game-genre">Quebra-Cabeça · Lógica</div>
@@ -313,7 +340,7 @@
     </a>
 
     <a href="/games/clock-color.html" class="game-card card-yellow reveal">
-      <div class="card-status status-soon"><div class="status-dot"></div> Em Breve</div>
+      <div class="card-status status-live"><div class="status-dot"></div> No Ar</div>
       <div class="game-icon-placeholder" data-icon="clock-color" style="background: rgba(255,215,64,0.15);">🕐</div>
       <div class="game-name">CLOCK COLOR</div>
       <div class="game-genre">Quebra-Cabeça · Conexão</div>
@@ -322,11 +349,20 @@
     </a>
 
     <a href="/games/neon-grid.html" class="game-card card-orange reveal">
-      <div class="card-status status-soon"><div class="status-dot"></div> Em Breve</div>
+      <div class="card-status status-live"><div class="status-dot"></div> No Ar</div>
       <div class="game-icon-placeholder" data-icon="neon-grid" style="background: rgba(255,110,64,0.15);">⚡</div>
       <div class="game-name">NEON GRID</div>
       <div class="game-genre">Arcade · Reflexo</div>
       <p class="game-desc">Quadriculado neon de reflexo puro. Toque, deslize e sobreviva em uma grade que acelera sem parar.</p>
+      <div class="card-arrow">→</div>
+    </a>
+
+    <a href="/games/nyx.html" class="game-card card-blue reveal">
+      <div class="card-status status-live"><div class="status-dot"></div> No Ar</div>
+      <div class="game-icon-placeholder" data-icon="nyx" style="background: rgba(47,240,255,0.15);">👾</div>
+      <div class="game-name">NYX</div>
+      <div class="game-genre">Arcade · Labirinto</div>
+      <p class="game-desc">Neon Maze de sobrevivência. Colete os fragmentos e fuja de 3 caçadores com IA única em 50 labirintos.</p>
       <div class="card-arrow">→</div>
     </a>
 
@@ -365,6 +401,44 @@
   </div>
 </section>
 
+<!-- BLOG -->
+<section id="blog" class="section">
+  <div class="section-header reveal">
+    <p class="section-tag">Do Blog</p>
+    <h2 class="section-title">BASTIDORES E APRENDIZADOS</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="games-grid">
+    <a href="/blog/desenvolvendo-jogos-mobile-solo.html" class="game-card reveal">
+      <div class="game-genre">Dev Solo</div>
+      <div class="game-name" style="font-size:22px;">Desenvolvendo Jogos Sozinho</div>
+      <p class="game-desc">O que ninguém te conta sobre criar, lançar e manter jogos mobile como desenvolvedor solo.</p>
+      <div class="card-arrow">→</div>
+    </a>
+    <a href="/blog/aso-google-play-dicas.html" class="game-card reveal">
+      <div class="game-genre">ASO</div>
+      <div class="game-name" style="font-size:22px;">ASO no Google Play</div>
+      <p class="game-desc">Como aparecer nas buscas do Google Play sem gastar um centavo em anúncios.</p>
+      <div class="card-arrow">→</div>
+    </a>
+    <a href="/blog/jogos-casuais-viciantes-design.html" class="game-card reveal">
+      <div class="game-genre">Game Design</div>
+      <div class="game-name" style="font-size:22px;">Jogos Casuais Viciantes</div>
+      <p class="game-desc">A anatomia de um loop de jogo que faz o jogador voltar "só mais uma vez".</p>
+      <div class="card-arrow">→</div>
+    </a>
+    <a href="/blog/admob-monetizacao-jogos-mobile.html" class="game-card reveal">
+      <div class="game-genre">Monetização</div>
+      <div class="game-name" style="font-size:22px;">AdMob para Indies</div>
+      <p class="game-desc">Como monetizar jogos mobile com anúncios em 2026 sem afastar seus jogadores.</p>
+      <div class="card-arrow">→</div>
+    </a>
+  </div>
+  <div style="text-align:center; margin-top:32px;">
+    <a href="/blog/" class="btn btn-ghost">Ver Todos os Artigos</a>
+  </div>
+</section>
+
 <!-- DEVELOPER -->
 <section id="developer" class="section section-narrow">
   <div class="dev-card reveal">
@@ -373,7 +447,7 @@
     <p class="dev-title">Fundador · Desenvolvedor · Designer</p>
     <p class="dev-bio">Desenvolvedor de jogos independente em Cascavel, Paraná, Brasil. Construindo um portfólio de jogos mobile, produtos digitais e marcas de moda — tudo sozinho. Cada jogo Huster é uma carta de amor à arcade clássica com toques modernos de design.</p>
     <div class="dev-links">
-      <a href="mailto:hustergame@gmail.com" class="dev-link">Email</a>
+      <a href="mailto:info@hustergame.com" class="dev-link">Email</a>
       <a class="dev-link" href="https://www.tiktok.com/@huster.game" target="_blank" rel="noopener">TikTok</a>
       <a class="dev-link" href="https://www.instagram.com/hustergame" target="_blank" rel="noopener">Instagram</a>
       <a class="dev-link" href="https://www.youtube.com/@HusterGame" target="_blank" rel="noopener">YouTube</a>
@@ -398,12 +472,13 @@
       <a href="/games/color-match.html">Color Match</a>
       <a href="/games/clock-color.html">Clock Color</a>
       <a href="/games/neon-grid.html">Neon Grid</a>
+      <a href="/games/nyx.html">Nyx</a>
     </div>
     <div class="footer-col">
       <h4>Estúdio</h4>
       <a href="#developer">Sobre</a>
       <a href="/blog/">Blog</a>
-      <a href="mailto:hustergame@gmail.com">Contato</a>
+      <a href="mailto:info@hustergame.com">Contato</a>
       <a href="/en/">English</a>
     </div>
     <div class="footer-col">
@@ -420,6 +495,6 @@
   </div>
 </footer>
 
-<script src="/js/main.js"></script>
+<script src="/js/main.js?v=20260723b"></script>
 </body>
 </html>
