@@ -402,11 +402,9 @@ loopme.com, 11463, RESELLER, 6c8d5f95897a5a3b
 loopme.com, 9621, RESELLER, 6c8d5f95897a5a3b
 lunamedia.io, 2fdb16a1-5025-4c41-9b17-e01e47ebc8b4, RESELLER, 524ecb396915caaf
 mars.media, 1010442, RESELLER
-media.net, 8cu12aq1y, RESELLER
 media.net, 8cu355vs4, RESELLER
 media.net, 8cu5l226o, RESELLER
 media.net, 8CU675N41, RESELLER
-media.net, 8cu9b72o6, RESELLER
 media.net, 8CUH46N56, RESELLER
 odeeo.io, 118848844, RESELLER, 36cfd73091d5c3fc
 ogury.com, 065d4ff5-a269-44be-9634-9d4d7af2dfc3, RESELLER
@@ -454,8 +452,6 @@ sharethrough.com, 3713, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5294, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5828-OB, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, 5828, RESELLER, d53b998a7bd4ecd2
-sharethrough.com, bc6d1whs, RESELLER, d53b998a7bd4ecd2
-sharethrough.com, bxzzb1br, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, ftvct81v, RESELLER
 sharethrough.com, ibazay96, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, r9b1mg7e, RESELLER, d53b998a7bd4ecd2
@@ -492,7 +488,6 @@ triplelift.com, 14716, RESELLER, 6c33edb13117fd86
 triplelift.com, 14798, RESELLER, 6c33edb13117fd86
 triplelift.com, 95054, RESELLER, 6c33edb13117fd86
 undertone.com, 4108, RESELLER
-unity.com, 40039742, DIRECT, 96cabb5fbdde37a7
 ushareit.com, lcb555b3bc8667a09a, RESELLER
 video.unrulymedia.com, 144138083, RESELLER
 video.unrulymedia.com, 657436911, RESELLER
@@ -502,4 +497,3 @@ voisetech.com, 1066, RESELLER
 xandr.com, 17779, RESELLER
 zetaglobal.net, 630, RESELLER
 zmaticoo.com, 5135195, RESELLER
-
