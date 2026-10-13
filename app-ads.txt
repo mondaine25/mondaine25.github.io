@@ -497,3 +497,5 @@ voisetech.com, 1066, RESELLER
 xandr.com, 17779, RESELLER
 zetaglobal.net, 630, RESELLER
 zmaticoo.com, 5135195, RESELLER
+
+facebook.com, 2245364726251373, DIRECT, c3e20eee3f780d68
